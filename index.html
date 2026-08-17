@@ -6,8 +6,8 @@
     <title>Welcome to My Homepage!!</title>
     <style>
         body {
-            background-color: #000080; /* 平成感のある紺色背景 */
-            color: #ffff00; /* 黄色テキスト */
+            background-color: #000080;
+            color: #ffff00;
             font-family: "MS Pゴシック", sans-serif;
             text-align: center;
             margin: 20px;
@@ -50,6 +50,11 @@
         a {
             color: #00ff00;
         }
+        .counter-area {
+            margin: 20px auto;
+            display: flex;
+            justify-content: center;
+        }
     </style>
 </head>
 <body>
@@ -63,9 +68,11 @@
 
     <hr>
 
-    <p>あなたは <img src="https://www.easy-counter.jp/ac/counter.php?id=YOUR_ID" alt="カウンター"> 人目の訪問者です！</p>
-    
-    <!-- 追加した画像エリア -->
+    <!-- カウンター設置エリア -->
+    <div class="counter-area">
+        <!-- ここにイージーカウンターのタグをそのまま貼る -->
+    </div>
+
     <div>
         <img src="profile.png" alt="Main Image" class="main-img">
     </div>
